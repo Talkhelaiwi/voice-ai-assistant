@@ -1,80 +1,57 @@
-# Voice-to-Voice AI Assistant
+# 🎙️ Voice-to-Voice AI Assistant
 
-## Project Description
+A Python-based voice assistant that listens to the user's speech, converts it into text using **RealtimeSTT**, sends the request to **Cohere AI**, then converts the AI response back into speech using **RealtimeTTS**.
 
-This project is a Voice-to-Voice AI Assistant built with Python.
+## Features
 
-The assistant performs three main tasks:
+-  Real-time speech recognition
+-  AI-generated responses using Cohere
+-  Text-to-Speech output
+-  Continuous voice conversation
+-  Built with Python
 
-1. Speech-to-Text using RealtimeSTT
-2. Generate an AI response using Cohere API
-3. Convert the AI response back to speech using pyttsx3
-
----
-
-## Technologies
+## Technologies Used
 
 - Python 3.11
 - RealtimeSTT
-- Faster Whisper
+- RealtimeTTS
 - Cohere API
-- pyttsx3
-- dotenv
+- Faster-Whisper
+- PyAudio
 
----
+## Screenshot
 
-## Project Structure
+The screenshot below shows the assistant running successfully in Visual Studio Code.
 
-```
-voice-ai-assistant/
-│
-├── main.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── .env
-└── venv/
-```
+![Voice AI Assistant](photoFor.jpg)
 
----
+## How to Run
 
-## Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/talkhelaiwi/voice-ai-assistant.git
-```
-
-Install packages
+1. Clone the repository.
+2. Create and activate a virtual environment.
+3. Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Create a .env file
+4. Create a `.env` file and add your Cohere API key:
 
-```text
-COHERE_API_KEY=YOUR_API_KEY
+```env
+COHERE_API_KEY=your_api_key_here
 ```
 
-Run the project
+5. Run the application:
 
 ```bash
 python main.py
 ```
 
----
+## Notes
 
-## Features
+- Do not upload your `.env` file.
+- Do not upload the `venv` folder.
+- A microphone is required for voice input.
 
-- Voice Input
-- Speech Recognition
-- AI Response Generation
-- Voice Output
-
----
-
-## Author
 
 Turki ALkhelaiwi

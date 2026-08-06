@@ -1,4 +1,4 @@
-# 🎙️ Voice-to-Voice AI Assistant
+#  Voice-to-Voice AI Assistant
 
 A real-time AI voice assistant built with Python. The assistant listens to the user's speech through the microphone, converts speech into text using RealtimeSTT, sends the request to Cohere AI to generate a response, and finally converts the response back into speech using RealtimeTTS.
 
@@ -59,11 +59,7 @@ The following image shows the application running successfully inside Visual Stu
 
 # Installation
 
-Clone the repository
 
-```bash
-git clone https://github.com/USERNAME/voice-ai-assistant.git
-```
 
 Move into the project folder
 
@@ -147,4 +143,4 @@ voice-ai-assistant/
 
 # Author
 
-Developed as a Voice AI Assistant project using Python, RealtimeSTT, RealtimeTTS, and Cohere AI.
+Turki Alkhelaiwi For Smart Methods Summer Training

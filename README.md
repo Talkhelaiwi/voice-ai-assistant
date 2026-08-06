@@ -4,11 +4,11 @@ A Python-based voice assistant that listens to the user's speech, converts it in
 
 ## Features
 
--  Real-time speech recognition
--  AI-generated responses using Cohere
--  Text-to-Speech output
--  Continuous voice conversation
--  Built with Python
+- 🎤 Real-time speech recognition
+- 🤖 AI-generated responses using Cohere
+- 🔊 Text-to-Speech output
+- ⚡ Continuous voice conversation
+- 🐍 Built with Python
 
 ## Technologies Used
 
@@ -23,7 +23,7 @@ A Python-based voice assistant that listens to the user's speech, converts it in
 
 The screenshot below shows the assistant running successfully in Visual Studio Code.
 
-![Voice AI Assistant](photoFor.jpg)
+![Voice AI Assistant](photoFor(1).jpg)
 
 ## How to Run
 
@@ -52,6 +52,3 @@ python main.py
 - Do not upload your `.env` file.
 - Do not upload the `venv` folder.
 - A microphone is required for voice input.
-
-
-Turki ALkhelaiwi

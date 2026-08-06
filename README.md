@@ -53,7 +53,7 @@ The application continuously listens for voice input, processes spoken language,
 
 The following image shows the application running successfully inside Visual Studio Code.
 
-![Voice Assistant Demo](demo.jpg)
+![Voice Assistant Demo](screenshots/photoFor.jpg)
 
 ---
 
